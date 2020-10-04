@@ -1,12 +1,13 @@
 #include <stdio.h>
-#define MAX_SIZE 100 //Maximum size of the array
+
 int main()
 {
- int arr[MAX_SIZE];
+ 
  int i, size, even, odd;
  /* Input size of the array */
  printf("Enter size of the array: ");
  scanf("%d", &size);
+ int arr[size];
  /* Input array elements */
  printf("Enter %d elements in array: ", size);
  for(i=0; i<size; i++)
