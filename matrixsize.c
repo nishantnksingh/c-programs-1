@@ -9,10 +9,10 @@ int main()
  printf("Enter the size of array");
 scanf("%d",&s);
 int A[s][s];
- printf("Enter elements in matrix of size 3x3: \n");
- for(row=0; row<SIZE; row++)
+ printf("Enter elements in matrix: \n");
+ for(row=0; row<s;  row++)
  {
- for(col=0; col<SIZE; col++)
+ for(col=0; col<s;  col++)
  {
  scanf("%d", &A[row][col]);
  }
