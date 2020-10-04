@@ -1,12 +1,14 @@
 #include <stdio.h>
-#define SIZE 3 // Matrix size
+
 int main()
 {
- int A[SIZE][SIZE];
- int row, col;
+
+ int row, col,s;
  int a, b, c, d, e, f, g, h, i;
  long det;
-
+ printf("Enter the size of array");
+scanf("%d",&s);
+int A[s][s];
  printf("Enter elements in matrix of size 3x3: \n");
  for(row=0; row<SIZE; row++)
  {
